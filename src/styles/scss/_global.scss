@@ -1,0 +1,69 @@
+/**
+ * Global styles
+ */
+
+html {
+  font-size: 62.5%;
+
+  @include mq(tablet-large) {
+    font-size: 55%;
+  }
+
+  @include mq(tablet) {
+    font-size: 50%;
+  }
+  
+  @include mq(phone) {
+    font-size: 47.5%;
+  }
+}
+
+body {
+  font-family: $mainFont;
+  font-weight: normal;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #222;
+  padding-top: 100px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $mainFont;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 6.2rem;
+}
+
+h2 {
+  font-size: 4.3rem;
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+h4 {
+  font-size: 2.8rem;
+}
+
+button {
+  background-color: transparent;
+}
+
+input,
+textarea {
+  font-family: $mainFont;
+}
+
+a,
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+/**
+ * Variables
+ */
+
+// ============================================================================= Breakpoints
+// @include mq(phone)
+$breakpoints: (laptop-large: '(max-width : 1440px)',
+  laptop: '(max-width : 1280px)',
+  tablet-large: '(max-width : 1024px)',
+  tablet: '(max-width : 768px)',
+  phablet: '(max-width : 639px)',
+  phone-large: '(max-width : 425px)',
+  phone: '(max-width : 375px)',
+  phone-small: '(max-width : 374px)'
+);
+
+// ============================================================================= Colors
+$black: #000;
+
+
+// ============================================================================= Fonts
+
+@include font-face(LeMondeCourrierPro-Italic, LeMondeCourrierPro, 400, italic, otf);
+@include font-face(LeMondeCourrierPro-Regular, LeMondeCourrierPro, 400, normal, otf);
+@include font-face(LeMondeCourrierPro-Bold, LeMondeCourrierPro, 700, normal, otf);
+
+$mainFont: 'LeMondeCourrierPro-Regular',
+Cambria,
+Georgia,
+serif;
+$mainFont-Italic: 'LeMondeCourrierPro-Italic',
+Cambria,
+Georgia,
+serif;
+$mainFont-Regular: 'LeMondeCourrierPro-Regular',
+Cambria,
+Georgia,
+serif;
+$mainFont-Bold: 'LeMondeCourrierPro-Bold',
+Cambria,
+Georgia,
+serif;

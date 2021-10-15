@@ -1,0 +1,17 @@
+// Libraries / Plugins
+@import "scss/libs/normalize";
+@import "scss/libs/reset";
+// @import "scss/libs/animations";
+@import "scss/libs/fontAwesome";
+// Abstracts
+@import "scss/abstracts/mixins";
+@import "scss/abstracts/variables";
+@import "scss/abstracts/smart-grid";
+@import "scss/abstracts/utilities";
+// General
+@import "scss/global";
+// Components
+@import "scss/components/header";
+
+// ============================================ Pages:
+// Home
